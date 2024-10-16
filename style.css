@@ -1,0 +1,44 @@
+:root{
+    --rosa: rgb(255, 175, 248);
+    --branco: rgb(255, 255, 255);
+    --roxo--claro: rgb(239, 169, 248);
+    --azul--claro: rgb(107, 121, 255);
+    --preto: #000;
+}
+body{
+    background-color: var(--rosa);
+    color: var(--preto);
+    font-family:fantasy ;
+    height: 100vh;
+    margin: 0;
+
+}
+header{
+    background-color: var(--roxo--claro);
+    text-align: center;
+    padding: 1px;
+}
+h1{ 
+font-size: 2rem;
+color: var(--preto);
+font-weight: 700;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    color: var(--branco);
+    margin: 0 2rem 1rem 0rem;
+    font-size: 1.2rem;
+}
+nav a:hover{ 
+    text-decoration:underline;
+    transform: scale(0.90);
+    transition: transform(0.1s);
+
+}
